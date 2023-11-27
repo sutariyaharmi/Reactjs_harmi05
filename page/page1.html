@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width" , initial-scale="1.0">
+        <title>DOCTYPE</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            header{
+                height: 100px;
+                background-color: yellowgreen;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                border: 2px solid black;
+            }
+            nav{
+                height: 500px;
+                width: 327px;
+                background-color: palevioletred;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: middle;
+                display:inline-block;
+                border:2px solid black;
+            }
+            main{
+                background-color: blueviolet;
+                height: 500px;
+                width: 100%;
+                float: right;
+            }
+            section{
+                display: flex;
+            }
+            footer{
+                height: 100px;
+                width: 100%;
+                background-color: green;
+                border: 2px solid black;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+            }
+            main{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            article{
+                height: 150px;
+                border: 2px solid black;
+                width: 100%;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>header</header>
+        <section>
+            <nav>NAV</nav>
+            <main>
+                <article>article</article>
+                <article>article</article>
+                <article>article</article>
+            </main>
+        </section>
+        <footer>footer</footer>
+    </body>
+</html>
