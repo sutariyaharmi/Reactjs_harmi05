@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .pd{
+        background-color: yellow;
+    }
+</style>
+<body>
+    <!--external method-->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis natus quas, suscipit unde ipsam minus expedita voluptate, impedit ullam recusandae velit officia. Quidem unde vero porro quasi? Reiciendis, exercitationem repudiandae!</p>
+    <!--inline method-->
+    <p style="background-color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ratione ipsa, iusto dolor aliquid modi odio quisquam facilis porro excepturi reiciendis quia! Quasi at officiis nam molestiae sunt odit tenetur.</p> 
+    <!--internal method--> 
+    <p class="pd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere maiores ad recusandae aut tempore fuga dolores possimus. Itaque aperiam molestiae tempore dolor a iure fugiat, aspernatur, hic dolorum aut perferendis.</p>
+
+    <!--box method-->
+     <div class="content-box">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ipsum laborum saepe dolorum magnam. Cupiditate eveniet doloremque sit accusamus, eius dolorem sequi facilis esse! Dolore ut excepturi beatae aperiam culpa.
+     </div>
+
+     <div class="border-box">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ab, cupiditate odio iure maiores debitis in nam ea quae excepturi, obcaecati, sapiente eum ad vel dolorem illum iusto accusantium aliquam.
+     </div>
+    
+     <!--CASCADE rule-->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio odit ut ducimus officiis distinctio, facilis temporibus id veniam. Asperiores vero non quos ea aliquid atque debitis dolores veniam iusto distinctio?</p>
+     
+     <!--SPECIFICITY rule-->
+       <div class="specificity" id="box">
+          <div class="spe-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores laborum delectus, reprehenderit blanditiis amet quisquam architecto molestiae nesciunt perferendis, veniam consequatur corrupti. In, vel? Facere tempore cupiditate quia harum?</div>
+       </div>  
+
+    <!--INHERITANCE rule--> 
+    <div class="main"></div>
+    <div class="inheritance" id="box"></div>
+    <div class="parents">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, praesentium illo atque ducimus sed velit culpa eveniet voluptate sit porro deserunt et ullam eius optio laborum minima eaque. Tenetur, deleniti.</div>
+     <div class="child">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at obcaecati facere possimus ipsa, necessitatibus rerum, maxime alias quos, libero iure eum distinctio veniam laboriosam voluptatem sint facilis commodi corrupti!</div>  
+</body>
+</html>
