@@ -1,0 +1,51 @@
+* .mainbox , p{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.box-child{
+    height: 100px;
+    background-color: peru;
+}
+.box{
+    background-color: pink;
+}
+p{
+    background-color: red;
+}
+.mainbox{
+    height: unset;
+}
+p{
+    background-color: blueviolet;
+} */
+/* univarsal*/
+ *{
+    background-color: pink;
+    height: 200px; 
+    border: solid green;
+} 
+ /* simple selector */
+.para-1{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    border: 2px solid black;
+} 
+
+ /* multiple selector */
+ .para-2{
+    letter-spacing: 10px;
+}
+.para-3{
+    color: blueviolet;
+    text-decoration: solid;
+} 
+/* unique id  */
+
+ #sel{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+} 
+
