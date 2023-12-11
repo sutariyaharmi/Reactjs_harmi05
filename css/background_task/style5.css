@@ -1,0 +1,11 @@
+.task5{
+    background: linear-gradient(-550deg, rgb(30, 198, 139) 60% , black 60%); 
+    height: 400px;
+    margin-top: 50px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 60px;
+}

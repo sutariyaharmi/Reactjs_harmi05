@@ -1,0 +1,20 @@
+.background{
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 200px;
+    width: 900px;
+    background-color: #114862;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.text{
+    color: white;
+    background-color: rgb(133, 131, 131);
+    font-size: 40px;
+    font-style: normal;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}

@@ -1,0 +1,9 @@
+	
+.box{
+	background: linear-gradient(120deg, rgb(255, 234, 0) 60% , yellow 60%);
+	height: 600px;
+	border-radius: 20px;
+	padding: 40px;
+    width: 70%;
+    margin-left: 50px;
+}

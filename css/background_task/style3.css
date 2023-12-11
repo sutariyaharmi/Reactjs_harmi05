@@ -1,0 +1,16 @@
+.task3{
+    height: 500px;
+    padding: 30px;
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+   margin-bottom: 20px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
