@@ -1,0 +1,72 @@
+body{
+  animation-play-state: running;
+  background-image: url(img/Download\ From\ CBEditz.com\ -\ 3840x2400.jpg)
+}
+
+.stump{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-image: url(img/stump1-removebg-preview.png);
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    animation: out 5s infinite;
+    animation-timing-function: steps(2);
+    animation-timing-function: linear;
+  }
+  .ball{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -10%;
+    bottom: 30%;
+    filter: drop-shado (10px);
+    background-image: url(img/ball-removebg-preview.png);
+    background-size: cover;
+    animation: bolling 5s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes bolling {
+    0%{
+      left: -10%;
+    }
+    50%{
+        left: 50%;
+        bottom: 0;
+    }
+    100%{
+      left: 95%;
+      bottom: 20%;
+    }
+  }
+  @keyframes out {
+    0%{
+      background-image: url(img/stump1-removebg-preview.png);
+    }
+    90%{
+      background-image: url(img/stump1-removebg-preview.png);
+    }
+    100%{
+      background-image: url(img/stump2-removebg-preview.png);
+    }
+    
+}
+.out-01{
+    text-align: center;
+    animation: cricket 5s infinite;
+
+}
+@keyframes cricket {
+    0%{
+      display: none;
+    }
+    90%{
+      display: none;
+    }
+    100%{
+     display: block;
+    }
+    
+}

@@ -1,0 +1,156 @@
+.main-1{
+  display: flex;
+}
+
+.main{
+    background-color: purple;
+    height: 70px;
+    width: 100%;
+   
+}
+.text{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+.f-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+  
+}
+.fourth{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}
+.t-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+   
+}
+.third{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}
+.s-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+  
+}
+.second{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}
+.fi-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+  
+}
+.first{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}
+.main-2{
+    display: flex;
+  }
+  .e-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+  
+}
+.eight{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}
+.se-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+  
+}
+.seventh{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}
+.si-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+  
+}
+.six{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}
+.fif-article{
+    height: 400px;
+    width: 260px;
+    background-color: aqua;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding: 10px;
+  
+}
+.fifth{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size: small;
+}

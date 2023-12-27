@@ -1,0 +1,165 @@
+.maindiv{
+    height: 600px;
+    width: 1000px;
+    background-color: gray;
+    position: relative;
+}
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+.box-2{ 
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
+.box-4{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box-5{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 
+    auto;
+}
+.box-6{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.box-7{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    inset: 0 0 0 0;
+    margin: auto;
+}
+.box-8{
+    height: 100px;
+    width: 100px;
+    background-color:orange;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box-9{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position: absolute;
+}
+.boxx-1{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+} 
+.boxx-2{
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    position: absolute;
+    right: 0; 
+    left: 0;
+    margin: auto;  
+}
+.boxx-3{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(231, 67, 94);
+    position: absolute;
+    left: 0; 
+    bottom: 0;  
+}
+.boxx-4 {
+    height: 70px;
+    width: 70px;
+    background-color: deeppink;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.boxx-5{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(104, 140, 172);
+    position: absolute;
+    right: 0;
+     left: 0;
+    bottom: 0;
+    margin: auto;  
+}
+.boxx-6{
+    height: 70px;
+    width: 70px;
+    background-color:black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+      
+}
+.boxx-7{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0; 
+    bottom: 0;
+    margin: auto;  
+}
+.boxx-8 {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(163, 36, 57);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.boxx-9 {
+        height: 70px;
+        width: 70px;
+        background-color: darkolivegreen;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }

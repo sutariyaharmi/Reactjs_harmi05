@@ -1,0 +1,51 @@
+.example{
+    background-color: purple;
+    height: 70px;
+    width: 100%;
+}
+.text{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+.f-1{
+    background-color: rgb(71, 230, 230);
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+.farticle{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+.f-2{
+    background-color: rgb(71, 230, 230);
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+.sarticle{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+.f-3{
+    background-color: rgb(71, 230, 230);
+    margin-top: 10px;
+    height: 130px;
+    width: 100%;
+}
+.tarticle{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+.p{
+    padding-bottom: 10px;
+}
