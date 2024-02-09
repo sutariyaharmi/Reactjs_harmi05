@@ -1,0 +1,26 @@
+.col-md-4{
+    background-color: blue;
+    border: 10px solid white;
+    height: 100px;
+    text-align: center;
+}
+.col-lg-6{
+    background-color: gray;
+    border: 10px solid white;
+    height: 100px;
+    text-align: center;
+}
+.col-xl-4{
+    background-color: aqua;
+    border: 10px solid white;
+    height:100px;
+    text-align: center;
+}
+
+
+.col-sm-4{
+    background-color: blue;
+    border: 10px solid white;
+    height: 100px;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+button{
+    width: 100%;
+}
+
+img{
+    padding-left: 10%;
+    padding-top: 30%;
+    width:50%;
+    padding-bottom: 50px;
+}
+
+h1{
+    color: white;
+    width: 430px;
+    padding-left: 10%;
+    line-height: 1.35;
+    padding-bottom: 50px;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    padding-left: 10%;
+}

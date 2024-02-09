@@ -1,0 +1,11 @@
+button{
+    width:25%;
+}
+
+.container{
+    border: 10px solid white;
+}
+
+span{
+    border-bottom: 2px solid blue;
+}

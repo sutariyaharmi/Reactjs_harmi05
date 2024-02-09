@@ -1,0 +1,84 @@
+.first{
+    position: relative;
+    height: 700px;
+    width: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+   
+  
+  /* img{
+    height: inherit;
+    width: inherit;
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    object-position:right;
+    filter: blur(10px 10px 20px black);
+  } */
+  .last{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    display: block;
+    z-index: auto;
+    transition: 0.5s ease;
+    opacity: 0.1;
+    background-color:rgb(69, 67, 67);
+  }
+  .first:hover .last{
+    opacity: 0.9;
+    color: aliceblue;
+    justify-content: center;
+  }
+  .text{
+     height: inherit; 
+     width: inherit;
+  }
+  .text span{
+    position: absolute;
+    background-color: rgb(255, 181, 91);
+    color: rgb(65, 44, 44);
+    font-size: 20px;
+    font-family: cursive;
+    padding: 16px 40px;
+    border-radius: 20px;
+    width: 150px;
+    height: fit-content;
+    transition: 0.5s ease;
+    transform: rotate(360deg);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+  }
+  .first:hover text{
+    display: block;
+    opacity: 0;
+    color: rgb(255, 107, 107);
+    justify-content: center;
+
+  }
+
+  .first:hover .image{
+    opacity: 1;
+  }
+
+  .maindiv{
+    height: inherit;
+    width: inherit;
+    background-image: url(img/clay-banks-yoqfCYkeJHw-unsplash.jpg);
+    background-size: cover;
+  }
+  
+  .maindiv:hover last{
+    background-color: rgb(96, 96, 96);
+    opacity: 0.5;
+  }
+
+  .maindiv:hover .text span{
+    display: block;
+    color: rgb(245, 233, 233);
+  }

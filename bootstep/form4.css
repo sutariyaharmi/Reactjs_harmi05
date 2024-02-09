@@ -1,0 +1,41 @@
+
+input#email {
+    border-radius: 100px;
+    background-color: rgb(236, 227, 227);
+    color: rgb(240, 233, 233);
+}
+
+label{
+    margin-top: 50px;
+}
+
+input#password {
+    border-radius: 100px;
+    background-color: rgb(236, 227, 227);
+    color: rgb(240, 233, 233);
+}
+
+input#button {
+    border-radius: 100px;
+    background-color:palevioletred ;
+    text-align: center;
+}
+
+.bg{
+    background-color: palevioletred;
+}
+
+.welcome h1{
+    padding-top: 140px;
+    padding-left: 140px;
+}
+
+.welcome p{
+    padding-left: 200px;
+}
+
+.welcome input{
+    margin-left: 230px;
+}
+
+
