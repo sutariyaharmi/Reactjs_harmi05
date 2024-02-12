@@ -1,0 +1,583 @@
+@media (max-width: 1200px) {
+
+
+    .banner {
+        background-size: auto;
+        height: 600px;
+    }
+
+    .solution-text p {
+        max-width: 590px;
+        line-height: 1.50;
+    }
+
+    .solution-image img {
+        max-width: 800px;
+        height: 500px;
+    }
+
+    /* ---------------------- */
+    .feature-1 p {
+        max-width: 300px;
+        line-height: 1.50;
+        font-size: 17px;
+    }
+
+    .feature-2 p {
+        max-width: 300px;
+        line-height: 1.50;
+        font-size: 17px;
+    }
+
+    /* ------------------------ */
+    .have-img img {
+        padding-left: 40px;
+        width: 500px;
+    }
+
+    .life h2 {
+        padding-left: 40px;
+    }
+
+    .life h1 {
+        max-width: 400px;
+        padding-left: 40px;
+    }
+
+    .life p {
+        max-width: 450px;
+        line-height: 1.50;
+        padding-left: 40px;
+    }
+
+    .con-list-1 {
+        padding-left: 30px;
+    }
+
+    /* -----------------------*/
+    .makes {
+        margin-left: 30px;
+    }
+
+    .makes h1 {
+        max-width: 450px;
+    }
+
+    .makes p {
+        max-width: 450px;
+        line-height: 1.60;
+    }
+
+    /* ------------------------- */
+    .who p {
+        /* max-width: 500px; */
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    /* -------------------------- */
+    .round p {
+        max-width: 350px;
+        font-size: 18px;
+        font-weight: 500;
+        word-spacing: 4px;
+    }
+}
+
+/* *************************** */
+/* ============================= */
+/****************************** */
+/* =========================== */
+
+
+@media(max-width: 992px) {
+
+
+    .container {
+        max-width: 960px;
+    }
+
+    /* .banner{
+    height: 550px;
+   } */
+    .icons {
+        display: none;
+    }
+
+    .solution-image img {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .solution-text h1 {
+        font-size: 45px;
+        width: 500px;
+        font-weight: 550;
+
+    }
+
+    .solution-text p {
+        max-width: 400px;
+        line-height: 1.30;
+    }
+
+    .solution-text {
+        padding-top: 0;
+    }
+
+
+    /* ------------------------ */
+
+    .have-img img {
+        max-width: 470px;
+    }
+
+    .feature-1 img {
+        max-width: 45px;
+        margin-left: 30px;
+    }
+
+    .feature-1 h3 {
+        font-size: 25px;
+    }
+
+    .feature-2 img {
+        max-width: 45px;
+        margin-left: 30px;
+    }
+
+    .feature-2 h3 {
+        font-size: 25px;
+    }
+
+    .con-list {
+        display: block;
+    }
+
+    .con-list-2 {
+        padding-left: 25px;
+    }
+
+    /* ------------------------------ */
+    .life h1 {
+        font-weight: 550;
+        font-size: 35px;
+    }
+
+    .life p {
+        max-width: 400px;
+        line-height: 1.70;
+    }
+
+    /* ---------------------------- */
+
+    .proud_text h3 {
+        font-size: 32px;
+
+    }
+
+    .proud_info {
+        max-width: 500px;
+    }
+
+    .main_proud {
+        /* max-width:200px; */
+        height: 500px;
+    }
+
+    .proud_custo {
+        flex-wrap: wrap;
+        margin: -150px 50px;
+    }
+
+    .proud_box {
+        width: 400px;
+        height: 200px;
+        margin: 10px 10px;
+        padding: 20px;
+    }
+
+    /* -------------------------- */
+    .case {
+        margin-top: 200px;
+    }
+
+    .studio h1 {
+        margin-left: 150px;
+    }
+
+    .i-1 img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .i-1 {
+        margin-left: 60px;
+    }
+
+    .i-2 img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .i-2 {
+        margin-right: 60px;
+    }
+
+    .i-3 {
+        display: none;
+    }
+
+    /* ------------------------ */
+
+    .division-1 img {
+        width: 200px;
+    }
+    .conlist{
+        display: block;
+    }
+    .con-list1{
+        margin: 0;
+    }
+    .con-list1 li img{
+        vertical-align: text-bottom;
+    }
+    .con-list2 li img{
+        vertical-align: text-bottom;
+    }
+    .con-list1 ul ,.con-list2  ul{
+        padding: 0;
+    }
+    .con-list1 ul li , .con-list2 ul li{
+        padding-bottom: 15px;
+    }
+    .division-1 img{
+        margin-top: 130px;
+    }
+
+    /* ----------------------------- */
+
+    .round p{
+       max-width: 200px;
+       font-size: 17px;
+    }
+    .our , .our-1 , .our-2{
+        left: 0;
+    }
+
+
+    /* ---------------------------- */
+    .main-contact{
+        margin-top: 50px;
+    }
+    .max img{
+       width: 400px;
+       margin-top: 50px;
+    }
+    .need h3{
+        font-size: 17px;
+    }
+    .need h1{
+        font-weight: 500;
+        font-size:35px ;
+        max-width: 350px;
+    }
+
+    /* ------------------------- */
+
+    .join h1{
+       margin-left: 150px;
+    }
+    .started{
+        margin-left: 400px;
+        margin-top: 50px;
+    }
+}
+
+/* ***************************** */
+/* ============================ */
+/* *************************** */
+/* =========================== */
+
+@media (max-width: 768px) {
+
+
+    nav ul {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav:focus-within ul {
+        display: block;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        border: 5px solid rgb(0, 140, 227);
+        height: 100vh;
+        left: 0;
+        z-index: 1000;
+        animation-name: slide;
+        animation-duration: 0.4s;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 50px 50px;
+    }
+
+    nav ul li a {
+        color: black;
+        width: 100%;
+        font-size: 26px;
+    }
+
+    /* ---------------------- */
+
+    .solution-text{
+        width: 100%;
+        text-align: center;
+        /* margin-left: 160px; */
+    }
+    .solution-image{
+        width: 80%;
+        margin-top: 500px;
+        margin-right: 60px;
+    }
+    .banner{
+        height: 1100px;
+        width: 100%;
+    }
+
+    /* ----------------------------- */
+
+    .feature-1{
+        display: block;
+        margin: 30px;
+        max-width: 300px;
+    }
+    .feature-2{
+        display: block;
+        margin: 30px;
+        max-width: 300px;
+    }
+    .main-feature{
+        display: flex;
+    }
+
+    /* ------------------------- */
+     
+    .control{
+        display: block;
+        margin-top: 90px;
+    }
+    .have-img img{
+        max-width: 100%;
+        height: auto;
+        margin-left: 60px;
+    }
+    .life{
+        max-width: 800px;
+        margin-left: 14px;
+    }
+    .life h1{
+        max-width: 800px;
+    }
+    .life p{
+        font-size: 17px;
+        max-width: 900px;
+    }
+    .con-list{
+        margin-left: 14px;
+    }
+    .con-list li{
+        font-size: 17px;
+    }
+
+    /* ----------------------------- */
+    .makes {
+        order: 2;
+    }
+    .im-2 img{
+        order: 1;
+    }
+    
+    .im-2 img{
+        width: 700px;
+        margin-left: -20px;
+    }
+    .makes h1{
+        max-width: 700px;
+        font-size: 32px;
+    }
+    .makes p{
+        max-width: 700px;
+        font-size: 17px;
+    } 
+    .what{
+        display: block;
+    }
+
+    /* ------------------------- */
+    .proud_text{
+        display: none;
+    }
+    .proud_custo2 , .proud_custo3{
+        display: flex;
+        max-width: 700px;
+        height:200px;
+        margin-top: 50px;
+}
+
+    /* -------------------------- */
+    .main-img img{
+        max-width: 320px;
+    } 
+    .studio h1{
+        margin-left: 30px;
+    }
+
+    /* -------------------------- */
+
+    .main-computer{
+        display: block;
+    }
+    .computer img{
+        width: 100%;
+    }
+    .who h2{
+       width:700px;
+       font-size: 34px;
+    }
+    .who p{
+        width:650px;
+    }
+    .conlist img{
+        margin-left: 60px;
+    }
+
+    /* -------------------------- */
+    .round{
+        display: block;
+    }
+    .round-1, .round-2, .round-3 {
+        display: flex;
+        margin: 30px 40px;
+    }
+    .our p {
+     width: 960px;
+    }
+    .round p {
+        max-width: 630px;
+    }
+    .our-2 p {
+        width: 630px;
+    }
+    .our-3 p {
+        width: 630px;
+    }
+
+/* ----------------------------------- */
+
+  .main-contact{
+    display: block;
+  }
+  .max img{
+    width: 100%;
+    margin-left: 90px;
+  }
+
+  /* ---------------------------- */
+
+  .join h1 {
+    margin-left: 30px;
+}
+  .started {
+    margin: 0;
+    margin-top: 25px;
+}
+.join {
+    text-align: center;
+}
+
+/* ----------------------- */
+
+.sletter{
+    flex-wrap: wrap;
+}
+}
+/* ============================== */
+/* ============================== */
+/* ============================== */
+/* ============================== */
+
+    @media (max-width: 576) {
+
+        nav ul {
+            display: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        nav:focus-within ul {
+            display: block;
+            position: absolute;
+            top: 0;
+            background-color: white;
+            border: 5px solid rgb(0, 140, 227);
+            height: 100vh;
+            left: 0;
+            z-index: 1000;
+            animation-name: slide;
+            animation-duration: 0.4s;
+        }
+    
+        nav ul li {
+            text-align: center;
+            margin: 50px 50px;
+        }
+    
+        nav ul li a {
+            color: black;
+            width: 100%;
+            font-size: 26px;
+        }
+    
+        /* ---------------------- */    
+        
+        .solution-text {
+            width: 100%;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        /* ------------------------ */
+
+        .text h1 {
+            text-align: center;
+            max-width: 1200px;
+            font-size: 30px;
+            padding-top: 10px;
+            color: #343f52;
+        }
+
+        /* -------------------------- */
+
+        .main-feature {
+            display: block;
+            width: 100%;
+        }
+
+        /* ------------------------ */
+       
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translate(-500px);
+        }
+
+        100% {
+            transform: translate(0px);
+        }
+    }
