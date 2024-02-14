@@ -1,0 +1,11 @@
+h1{
+    color:purple;
+}
+
+.modal-footer{
+    background-color: rgb(230, 47, 230);
+    padding-right: 100px;
+}
+.modal-body{
+    text-align: center;
+}
