@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* Error: Undefined variable.
+ *    ,
+ * 10 |     font-size: $f-4;
+ *    |                ^^^^
+ *    '
+ *   sass\main.scss 10:16  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    ╷\a 10 │     font-size: $f-4;\d\a    │                ^^^^\a    ╵\a   sass\\main.scss 10:16  root stylesheet";
+}/*# sourceMappingURL=style.css.map */

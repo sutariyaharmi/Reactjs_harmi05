@@ -1,0 +1,26 @@
+.page{
+  display: flex;
+  background-color:#1439df ;
+  height: 500px;
+  width: 500px ;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.round1{
+    
+    margin-left: 20px;
+   border-left: 40px solid green;
+   height: 400px;
+   width: 300px;
+   border-radius: 100%;
+   display: flex;  
+}
+
+.round2{
+    border: 40px solid green;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    
+ }
