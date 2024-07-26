@@ -15,7 +15,7 @@ const Column5 = () => {
                 <h1 className='font-semibold text-sm'>Home / Shop</h1>
                 <h1 className='text-gray-600'>Showing all 12 result</h1>
             </div>
-            <div className='grid lmd:mx-20 vsm:mx-10 mx-5 lg:grid-cols-5 grid-cols-2 slg:grid-cols-3 mlg:grid-cols-4  '>
+            <div className='grid lmd:mx-20 vsm:mx-10 mx-5 lg:grid-cols-5 msm:grid-cols-2 llmd:grid-cols-3  vsm:grid-cols-1 slg:grid-cols-4 mlg:grid-cols-5  '>
                 {
                     Colum5.map((item) => {
                         return (

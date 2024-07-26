@@ -12,7 +12,7 @@ const Product = () => {
             <div>
                 <h1 className='text-gray-700 text-2xl  md:text-4xl mt-14 bg-pink-50 h-[60px] p-3 md:h-[130px] flex items-center px-3 md:px-20' >Product Style Two</h1>
             </div>
-            <div className='grid  mt-24 px-3 justify-evenly  lg:grid-cols-4 grid-cols-2 slg:grid-cols-3 '>
+            <div className='grid  mt-24 px-3 justify-evenly  lg:grid-cols-5 md:grid-cols-3  mlg:grid-cols-4 llmd:grid-cols-3 lmd:grid-cols-2'>
                 {
                     shop.map((item) => {
                         return (
@@ -24,7 +24,7 @@ const Product = () => {
                                             <FaRegEye className='size-7 sm:size-10 p-1  border-2 rounded-full sm:p-2 hover:bg-black hover:text-white duration-300 mt-3' />
                                         </div>
                                         <img className='md:max-w-72' src={item.img1} alt="" />
-                                        <div className='pop duration-500 opacity-0 group-hover:opacity-100 group-hover:-translate-y-8 translate-y-8 absolute left-2 bottom-0 vsm:left-5 lmd:left-12 md:left-20 top-[170px] vsm:top-[200px] lmd:top-[270px] md:top-96'>
+                                        <div className='pop duration-500 opacity-0 group-hover:opacity-100 group-hover:-translate-y-8 translate-y-8 absolute left-2 bottom-0 vsm:left-5lmd:left-20 md:left-20 top-[170px] vsm:top-[200px] lmd:top-[300px] md:top-96 mlg:top-[350px] llmd:top-[300px] '>
                                             <div className='flex items-center duration-500 bg-slate-50 rounded p-1 hover:bg-black hover:text-white'>
                                                 <HiOutlineInboxStack className='mr-2' />
                                                 <h2 className='text-sm md:text-base'>select option</h2>

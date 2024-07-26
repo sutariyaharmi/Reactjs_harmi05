@@ -28,12 +28,14 @@ const Navbar = () => {
 
                                 <div className="dropdown-content ">
                                     <div>
-                                        <div className='grid grid-cols-4 ms-28 mb-16 pb-14 mt-8 w-[1400px]  border-t-2 border-b-2'>
-                                            <div className='border-e-2 max-w-80'>
-
+                                        <div className='grid relative lg:grid-cols-4  grid-cols-2 p-5 mb-16 mt-8 w-screen border-t-2'>
+                                            <div className='border-e-2 border-b-2 lg:border-b-0 '>
+                                                 <img className='px-2 pt-2' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/fashion-menu-01.webp" alt="" />
+                                                 <h1 className='font-semibold pt-1 text-xl pb-4'>New Product In Market</h1>
+                                                 <Link to="ShopNow" className='text-gray-600 mb-7 lg:mb-0 ml-3' >Shop Now</Link>
                                             </div>
 
-                                            <div className='border-e-2 mt-7 ms-10 max-w-52'>
+                                            <div className='border-e-2 text-start ml-2 border-b-2 lg:border-b-0 '>
 
                                                 <Link to="/" className='text-gray-500 p-2' href="">Fashion Hub</Link>
                                                 <Link to="/About_us" className='text-gray-500 p-2' href="">Kids Wear</Link>
@@ -43,8 +45,8 @@ const Navbar = () => {
                                                 <Link to="/About_us" className='text-gray-500 p-2' href="">Handicraft</Link>
                                                 <Link to="/About_us" className='text-gray-500 p-2' href="">intearior</Link>
                                             </div>
-                                            <div className='border-e-2 mt-7 max-w-36'>
-                                                <Link to="/About_us" className='text-gray-500 p-2' href="">Plant Garden</Link>
+                                            <div className='border-e-2 text-start ml-2 mt-5 lg:mt-0'>
+                                                <Link to="/About_us" className='text-gray-500 p-2 ' href="">Plant Garden</Link>
                                                 <Link to="/About_us" className='text-gray-500 p-2' href="">Kids Toys</Link>
                                                 <Link to="/About_us" className='text-gray-500 p-2' href="">Electronic Gadget</Link>
                                                 <Link to="/About_us" className='text-gray-500 p-2' href="">Bathroom</Link>
@@ -54,7 +56,7 @@ const Navbar = () => {
 
                                             </div>
                                             < div>
-                                                <div className=' mt-7 '>
+                                                <div className='ml-2 mt-5 lg:mt-0'>
                                                     <Link to="/About_us" className='text-gray-500 p-2' href="">Shop</Link>
                                                     <Link to="/About_us" className='text-gray-500 p-2' href="">Skin Care</Link>
                                                     <Link to="/About_us" className='text-gray-500 p-2 ' href="">Grocery Outlet
@@ -70,7 +72,7 @@ const Navbar = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <h1 className="ml-[950px] -mt-12 mb-3"><span className='text-red-700'>Summer Sale 65% off</span> Shop Now</h1>
+                                    <h1 className="right-4 absolute"><span className='text-red-700'>Summer Sale 65% off</span> Shop Now</h1>
                                 </div>
                             </div>
                             {/* -------- */}
@@ -84,12 +86,18 @@ const Navbar = () => {
 
                                     <div className="dropdown-content ">
                                         <div>
-                                            <div className='grid grid-cols-4 ms-28 mb-16 pb-14 mt-8 w-[1400px]  border-t-2 border-b-2 p-10'>
-                                                <div className=''>
-
+                                            <div className='grid relative lg:grid-cols-4  grid-cols-2 p-5 mb-16 mt-8 w-screen border-t-2'>
+                                                <div className=' grid grid-cols-2 border-b-2 lg:border-b-0'>
+                                                    <div className='p-3'>
+                                                        <img className='' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/sunglass-hover.webp" alt="" />
+                                                    </div>
+                                                    <div className='p-3'>
+                                                       <img className='' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/02/Smart-watch.webp" alt="" />
+                                                    </div>
                                                 </div>
 
-                                                <div className='border-e-2 mt-7 ms-10 '>
+                                                <div className='border-s-2 p-5 ms-10 border-b-2 lg:border-b-0'>
+                                                    <img className='h-12 pb-2' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/dress-02.png" alt="" />
                                                       <h1 className='font-semibold text-lg'>Product Styles</h1>
                                                     <Link to="/" className='text-gray-500 p-2' href="">Style one</Link>
                                                     <Link to="/Product" className='text-gray-500 p-2' href="">Style Two</Link>
@@ -97,7 +105,8 @@ const Navbar = () => {
                                                     <Link to="/About_us" className='text-gray-500 p-2' href="">Style Four</Link>
                                                     
                                                 </div>
-                                                <div className='border-e-2 mt-7 ms-10 max-w-56'>
+                                                <div className='border-s-2 p-5 h-full mt-3'>
+                                                    <img className='h-12 pb-2' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/school-bag.png" alt="" />
                                                 <h1 className='font-semibold text-lg'>Product gallery</h1>
                                                     <Link to="/" className='text-gray-500 p-2' href="">Vertical Carousel</Link>
                                                     <Link to="/About_us" className='text-gray-500 p-2' href="">Carousel</Link>
@@ -106,7 +115,8 @@ const Navbar = () => {
 
                                                 </div>
                                                 < div>
-                                                    <div className=' mt-7 ms-10'>
+                                                    <div className=' p-5 h-full ms-10 border-s-2 mt-3'>
+                                                     <img className='h-12 pb-2' src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/chair-1.png" alt="" />   
                                                     <h1 className='font-semibold text-lg'>Product type</h1>
                                                     <Link to="/" className='text-gray-500 p-2' href="">Simple Product</Link>
                                                     <Link to="/About_us" className='text-gray-500 p-2' href="">Variable Product</Link>
@@ -114,7 +124,7 @@ const Navbar = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <h1 className="ml-[950px] -mt-12 mb-3"><span className='text-red-700'>Summer Sale 65% off</span> Shop Now</h1>
+                                        <h1 className="right-4 absolute"><span className='text-red-700'>Summer Sale 65% off</span> Shop Now</h1>
                                     </div>
                                 </div>
                                 {/* ---------- */}
@@ -155,8 +165,8 @@ const Navbar = () => {
                                                     <Link to="/About_us" className='text-gray-500 p-2' href="">Shop Style Four</Link>
 
                                                 </div>
-                                                < div>
-                                                   
+                                                < div className='flex justify-center p-7 ps-0'>
+                                                   <img  src="https://emart.wpthemedemos.com/wp-content/uploads/2023/03/New-Project.webp" alt="" />
                                                 </div>
                                             </div>
                                         </div>
@@ -201,7 +211,7 @@ const Navbar = () => {
                                             <div className='mb-8 mt-8 ms-5'>
                                                 <div>
                                                     <Link to="/About_us" className='text-gray-500 p-2' href="">Contact one</Link>
-                                                    <Link to="/Feq_page" className='text-gray-500 p-2' href="">Contact Two</Link>
+                                                    <Link to="/Contact" className='text-gray-500 p-2' href="">Contact Two</Link>
 
                                                 </div>
                                             </div>
@@ -216,7 +226,8 @@ const Navbar = () => {
                     <CiSearch className='hidden sm:block  size-6  mx-2' />
                     <Link to="/Signin"><FiUser className='size-6  mx-2' /> </Link>
                     <CiHeart className='hidden md:block  size-6  mx-2' />
-                    <LuWalletCards className='size-6 mx-2' />
+                    <Link to="/Cart"><LuWalletCards className='size-6 mx-2' /></Link>
+                    
                 </div>
             </div>
         </div>

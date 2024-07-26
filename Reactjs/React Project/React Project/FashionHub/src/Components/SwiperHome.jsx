@@ -16,11 +16,11 @@ const SwiperHome = () => {
                     }}
                     breakpoints={{
                         500: {
-                            slidesPerView: 2,
+                            slidesPerView: 4,
                             spaceBetween: 20,
                         },
                         768: {
-                            slidesPerView: 3,
+                            slidesPerView: 4,
                             spaceBetween: 40,
                         },
                     }}
@@ -39,6 +39,16 @@ const SwiperHome = () => {
                     <SwiperSlide>
                         <img className='rounded-full' src="https://emart.wpthemedemos.com/fashion-hub/wp-content/uploads/sites/4/elementor/thumbs/fashion-hub-slider-img-03-pz1lok92ysk7rnwgh3ufkcxd1j6i6c68eyzi24mtcc.webp" />
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='rounded-full' src="https://emart.wpthemedemos.com/fashion-hub/wp-content/uploads/sites/4/elementor/thumbs/fashion-hub-slider-img-04-pz1lq8er46ukeph2ptujzxqv26xzuyt1z8qkru5ma4.webp" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='rounded-full' src="https://emart.wpthemedemos.com/fashion-hub/wp-content/uploads/sites/4/elementor/thumbs/fashion-hub-slider-img-01-pz1lq4necupf49mjbs81pyp0ongj06e4mq4muqb6z0.webp" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='rounded-full' src="https://emart.wpthemedemos.com/fashion-hub/wp-content/uploads/sites/4/elementor/thumbs/fashion-hub-slider-img-02-pz1lpzy7eoizi7td386wvhvppq3oxovgy2v7gci5u4.webp" />
+                    </SwiperSlide>     
+                  
                 </Swiper>
             </div>
 

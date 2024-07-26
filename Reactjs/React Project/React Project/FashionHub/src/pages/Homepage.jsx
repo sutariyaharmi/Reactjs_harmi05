@@ -36,7 +36,7 @@ const Homepage = () => {
             <SwiperHome />
             <CardViewHome />
             <div className='mb-14'>
-                <div className='box grid grid-cols-1 mx-9 sm:grid-cols-2 lg:grid-cols-4 my-7 mt-20 border-2 border-slate-300 p-8 justify-center '>
+                <div className='box grid grid-cols-1 mx-9 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-4 my-7 mt-20 border-2 border-slate-300 p-8 justify-center '>
                     <div className='flex flex-wrap justify-center items-center my-5'>
                         <BsTruck className='size-11  hover:-translate-x-2 hover:duration-200' />
                         <div className='space-x-5'>
